@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ha85info>
+
+    <fodboldt>
+            <hold>Oldboys 1</hold>
+            <navn>Kim R. Hansen</navn>
+            <telefon>28802154</telefon>
+            <email>kimrene@mail.dk</email>
+    </fodboldt>
+    <fodboldt>
+            <hold>Oldboys 2</hold>
+            <navn>Steen Kristensen</navn>
+            <telefon>40603651</telefon>
+            <email>steen.s.kristensen@privat.dk</email>
+    </fodboldt>
+    <fodboldt>
+            <hold>Senior dame 7 mands</hold>
+            <navn>Pia Gram Juhl</navn>
+            <telefon>50737092</telefon>
+            <email>gram.juhl@email.dk</email>
+    </fodboldt>
+
+    <haendboldt>
+        <hold>Damesenior</hold>
+        <navn>Lene Svendsen</navn>
+        <telefon>Ingen</telefon>
+        <email>lene.bent@mail.tele.dkk</email>
+    </haendboldt>
+    <haendboldt>
+        <hold>Herresenior</hold>
+        <navn>Jesper Vindfeld</navn>
+        <telefon>Ingen</telefon>
+        <email>jv@vindfeldbiler.dk</email>
+    </haendboldt>
+    <haendboldt>
+        <hold>Før skole hold</hold>
+        <navn>Mette Nyhus</navn>
+        <telefon>Ingen</telefon>
+        <email>metteogjacob@privat.dk</email>
+    </haendboldt>
+
+    <loebe>
+        <hold>Skovløberne</hold>
+        <navn>Marie Boldrup Mønsted</navn>
+        <telefon>61716694</telefon>
+        <email>mbm4dk@yahoo.dk</email>
+    </loebe>
+
+    <badminton>
+        <hold>ekstratræning</hold>
+        <navn>Daniel Jill-Sørensen</navn>
+        <telefon>31191555</telefon>
+        <email>daniel.offentlig@gmail.com</email>
+    </badminton>
+    <badminton>
+        <hold>U11</hold>
+        <navn>Anders Michaelsen</navn>
+        <telefon>25140844</telefon>
+        <email>mich@elsen.dk</email>
+    </badminton>
+
+    <badminton>
+        <hold>U13</hold>
+        <navn>Brian Madsen</navn>
+        <telefon>42953626</telefon>
+        <email>madsens@fiberfart.dk</email>
+    </badminton>
+
+</ha85info>

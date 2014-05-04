@@ -1,0 +1,37 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/childRow"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:drawable/list_selector_background"
+          android:padding="@dimen/activity_horizontal_margin"
+        android:clickable="true"
+        android:showDividers="beginning|end"
+        android:onClick="nyhedsClick">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TextView
+                android:id="@+id/textviewfirstline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:gravity="center_vertical"
+                android:text="Example application"
+                android:textSize="16sp"
+                />
+
+        <View
+                android:layout_width="375dp"
+                android:layout_height="2dp"
+
+                android:background="@android:color/black"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+</TableRow>

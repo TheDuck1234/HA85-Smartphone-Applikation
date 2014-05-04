@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:id="@+id/tableLayout">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow">
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/remaImageView"
+                    android:src="@drawable/ic_sponsor_rema"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/winterImageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_sponser_winter"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow2">
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/windImageView"
+                    android:src="@drawable/ic_sponser_wind"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/synImageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_sponser_syn"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow3">
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/rygImageView"
+                    android:src="@drawable/ic_sponser_rygcenter"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/proImageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_sponser_pro"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow4">
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/jackImageView"
+                    android:src="@drawable/ic_sponser_jack"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/fundImageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_sponser_fundraiseren"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow5">
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/elstockImageView"
+                    android:src="@drawable/ic_sponser_elstock"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+
+            <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    android:id="@+id/bogtrykImageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_sponser_bogtryk"
+                    android:layout_weight="0.13"
+                    android:onClick="sponsorClick"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sport>
+    <fodboldt>
+            <navn>U5 / U6</navn>
+            <ttid>10.00 - 11.000</ttid>
+            <tdag>Lørdag</tdag>
+            <tsted>Bane 3</tsted>
+            <tstart>null</tstart>
+    </fodboldt>
+    <fodboldt>
+            <navn>U7 Drenge</navn>
+            <ttid>17.00 - 18.30</ttid>
+            <tdag>Mandag</tdag>
+            <tsted>Bane 3</tsted>
+            <tstart>null</tstart>
+    </fodboldt>
+    <fodboldt>
+            <navn>U8 Piger</navn>
+            <ttid>17.00 - 18.00</ttid>
+            <tdag>Torsdag</tdag>
+            <tsted>Bane 7 + 8</tsted>
+            <tstart>null</tstart>
+    </fodboldt>
+    <fodboldt>
+            <navn>U9 Piger</navn>
+            <ttid>17.00 - 18.00</ttid>
+            <tdag>Torsdag</tdag>
+            <tsted>Bane 6</tsted>
+            <tstart>null</tstart>
+    </fodboldt>
+    <haendboldt>
+        <navn>U6</navn>
+        <ttid>16.00 - 17.00</ttid>
+        <tdag>Onsdag</tdag>
+        <tsted>Hvinningdal</tsted>
+        <tstart>null</tstart>
+    </haendboldt>
+    <haendboldt>
+        <navn>U8</navn>
+        <ttid>16.00 - 17.00</ttid>
+        <tdag>Torsdag</tdag>
+        <tsted>Hvinningdal</tsted>
+        <tstart>null</tstart>
+    </haendboldt>
+    <haendboldt>
+        <navn>U10</navn>
+        <ttid>16.00 - 17.30</ttid>
+        <tdag>Fredag</tdag>
+        <tsted>Buskelund</tsted>
+        <tstart>null</tstart>
+    </haendboldt>
+    <haendboldt>
+        <navn>U12</navn>
+        <ttid>18.30 - 19.30</ttid>
+        <tdag>Tirsdag</tdag>
+        <tsted>Buskelund</tsted>
+        <tstart>null</tstart>
+    </haendboldt>
+    <loebe>
+        <navn>SKOVLØBERNE</navn>
+        <ttid>18.00</ttid>
+        <tdag>Onsdag</tdag>
+        <tsted>Hvinningdalhallen</tsted>
+        <tstart>null</tstart>
+    </loebe>
+    <badminton>
+        <navn>U9</navn>
+        <ttid>17.00 - 18.00</ttid>
+        <tdag>Mandag</tdag>
+        <tsted>Hvinningdal</tsted>
+        <tstart>null</tstart>
+    </badminton>
+    <badminton>
+        <navn>U11</navn>
+        <ttid>18.00 - 19.00</ttid>
+        <tdag>Mandag</tdag>
+        <tsted>Hvinningdal</tsted>
+        <tstart>null</tstart>
+    </badminton>
+    <badminton>
+        <navn>U13</navn>
+        <ttid>19.00 - 20.00</ttid>
+        <tdag>Mandag</tdag>
+        <tsted>Hvinningdal</tsted>
+        <tstart>null</tstart>
+    </badminton>
+    <badminton>
+        <navn>U15</navn>
+        <ttid>20.00 - 21.00</ttid>
+        <tdag>Mandag</tdag>
+        <tsted>Hvinningdal</tsted>
+        <tstart>null</tstart>
+    </badminton>
+
+</Sport>

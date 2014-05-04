@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HA85</string>
+    <string name="action_settings">Settings</string><!-- Does nothing -->
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- sport -->
+    <string name="sport_button_header">Vælg Sport</string>
+
+    <!-- Info -->
+    <string name="info_button_header">Kontakt Information</string>
+
+    <string name="info_fodboldt_button">Fodboldt</string>
+    <string name="info_haendboldt_button">Håndboldt</string>
+    <string name="info_loebe_button">Løbe</string>
+    <string name="info_badminton_button">Badminton</string>
+
+    <string name="info_text_header">HA85 Information</string>
+    <string name="info_text_main">Hvinningdal Aktivitetsforening eller også kaldt HA85 er en sports forening i Hvinningdal som var opstod i 1895 heraf navnet. Hvinningdal er den vestlige bydel af Silkeborg med en befolkning på omkring 5000 hvor HA85 ligger ved Christiansfeldvej 35.
+    Forening er opbygget af en bestyrelse af frivillige med Søren Warburg Nielsen som Formand for det hele med nogle cheffer under sig
+    </string>
+
+    
+    <string-array name="nav_drawer_items">
+        <item >Nyheder</item>
+        <item >Sport</item>
+        <item >Info</item>
+        <item >Sponsor</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+    
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

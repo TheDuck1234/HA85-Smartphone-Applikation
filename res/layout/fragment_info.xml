@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/info_text_header"
+            android:id="@+id/infoHeaderTextView"
+            android:layout_gravity="center_horizontal"/>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="304dp"
+            android:id="@+id/scrollView">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/info_text_main"
+                android:id="@+id/infoTextView"
+                android:inputType="none"/>
+    </ScrollView>
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/black"
+                    android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:showDividers="end">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/info_button_header"
+                    android:id="@+id/textView"
+                    android:layout_span="2"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/black"
+                    android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:id="@+id/tableRow">
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_fodboldt_button"
+                    android:id="@+id/fodboldtButton"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    style="@style/ButtonText"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:onClick="infoClick"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_haendboldt_button"
+                    android:id="@+id/haendboldtButton"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    style="@style/ButtonText"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:onClick="infoClick"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                >
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_badminton_button"
+                    android:id="@+id/badmintonButton"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    style="@style/ButtonText"
+                    android:lines="1"
+                    android:onClick="infoClick"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_loebe_button"
+                    android:id="@+id/loebeButton"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    style="@style/ButtonText"
+                    android:lines="1"
+                    android:onClick="infoClick"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
